@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0
+    ;
+}
+html , body {
+    min-height: 100vh;
+    background-color: rgba(250, 235, 215, 0.847);
+}
+header{
+    background-color: rgb(73, 65, 37);
+    color: rgba(240, 255, 255, 0.692);
+    text-align: center;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header > p  {
+    padding-bottom: 50px;
+    
+}
+a {
+    color: antiquewhite;
+    font-weight: bolder;
+    text-decoration: none;
+
+} 
+a:hover{ 
+    color: blue;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 40px;
+}
+
+section.normal{
+    background-color: antiquewhite;
+}
+
+section.image{
+    background-color: rgba(119, 114, 57, 0.621);
+    color: white;
+   
+}
+section.image > p {
+    background-color: rgba(0, 0, 0, 0.364);
+    width: 350px;
+    border-radius: 10px;
+   
