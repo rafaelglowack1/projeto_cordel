@@ -42,10 +42,21 @@ section.normal{
 section.image{
     background-color: rgba(119, 114, 57, 0.621);
     color: white;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
    
 }
 section.image > p {
     background-color: rgba(0, 0, 0, 0.364);
     width: 350px;
     border-radius: 10px;
-   
+
+}
+footer {
+    background-color:rgb(73, 65, 37) ;
+    font-variant: small-caps;
+    padding: 7px;
+    color:rgba(240, 255, 255, 0.692);
+}
